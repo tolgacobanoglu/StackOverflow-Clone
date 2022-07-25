@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity()
         navHostFragment.navController.addOnDestinationChangedListener { _, destination, _ ->
 
             when (destination.id)
-            {
+            {   //TODO R.id.noConnectionFragment will be added
                 R.id.splashFragment, R.id.signInFragment, R.id.signUpFragment, R.id.forgotPasswordFragment ->
                 {
                     binding.bottomNav.visibility = View.GONE
