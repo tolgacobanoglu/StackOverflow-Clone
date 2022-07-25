@@ -69,4 +69,14 @@
         android:name="com.tolgacobanoglu.stackoverflow_clone.view.NoConnectionFragment"
         android:label="fragment_no_connection"
         tools:layout="@layout/fragment_no_connection" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.tolgacobanoglu.stackoverflow_clone.view.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.tolgacobanoglu.stackoverflow_clone.view.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
 </navigation>
