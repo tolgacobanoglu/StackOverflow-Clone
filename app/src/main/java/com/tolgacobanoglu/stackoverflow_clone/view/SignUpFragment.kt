@@ -16,7 +16,7 @@ import com.tolgacobanoglu.stackoverflow_clone.databinding.FragmentSignUpBinding
 
 class SignUpFragment : Fragment()
 {
-    var _binding: FragmentSignUpBinding? = null
+    private var _binding: FragmentSignUpBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View?
