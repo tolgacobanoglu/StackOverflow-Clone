@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "161289290422",
+    "project_id": "stackoverflow-clone-ccf44",
+    "storage_bucket": "stackoverflow-clone-ccf44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161289290422:android:803bd4400930f633041c17",
+        "android_client_info": {
+          "package_name": "com.tolgacobanoglu.stackoverflow_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161289290422-7o6g5sc2i836599pvhtea68eq2db76u1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3W-NHdCOZh6FP5Q9w-lsFupnfyrZKmOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161289290422-7o6g5sc2i836599pvhtea68eq2db76u1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

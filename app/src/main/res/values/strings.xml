@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">StackOverflow-Clone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hint_email">Please enter e-mail address</string>
+    <string name="hint_forgot_email">Please enter e-mail address to send reset mail</string>
+    <string name="hint_name">Please enter display name</string>
+    <string name="tw_forgot_email_info">Forgot your account’s password? Enter your email address and we’ll send you a reset password link.</string>
+    <string name="hint_password">Please enter password</string>
+    <string name="button_sign_in">SIGN IN</string>
+    <string name="button_sign_up">SIGN UP</string>
+    <string name="tw_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="tw_forgot_password">Forgot Password?</string>
+    <string name="button_send_reset_link">SEND RESET LINK</string>
+    <string name="tw_remember_me">Remember me</string>
+</resources>
