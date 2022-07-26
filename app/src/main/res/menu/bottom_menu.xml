@@ -13,10 +13,10 @@
         android:title="Search" />
 
     <item
-        android:id="@+id/favouritesFragment"
+        android:id="@+id/favoritesFragment"
         android:icon="@drawable/ic_favourite_selector"
         android:enabled="true"
-        android:title="Favourite" />
+        android:title="Favorite" />
 
     <item
         android:id="@+id/profileFragment"

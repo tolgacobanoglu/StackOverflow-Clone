@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.NavController
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import com.tolgacobanoglu.stackoverflow_clone.databinding.ActivityMainBinding
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity()
 
         NavigationUI.setupWithNavController(binding.bottomNav, navController)
 
+        binding.floatingActionButton.setOnClickListener{
+            navController.navigate(R.id.newPostFragment)
+        }
+
+
         navHostFragment.navController.addOnDestinationChangedListener { _, destination, _ ->
 
             when (destination.id)
@@ -33,10 +39,12 @@ class MainActivity : AppCompatActivity()
                 R.id.splashFragment, R.id.signInFragment, R.id.signUpFragment, R.id.forgotPasswordFragment ->
                 {
                     binding.bottomNav.visibility = View.GONE
+                    binding.floatingActionButton.visibility = View.GONE
                 }
                 else ->
                 {
                     binding.bottomNav.visibility = View.VISIBLE
+                    binding.floatingActionButton.visibility = View.VISIBLE
                 }
             }
         }

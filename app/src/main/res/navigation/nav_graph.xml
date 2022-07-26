@@ -75,13 +75,18 @@
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
-        android:id="@+id/favouritesFragment"
-        android:name="com.tolgacobanoglu.stackoverflow_clone.view.FavouritesFragment"
-        android:label="fragment_favourites"
+        android:id="@+id/favoritesFragment"
+        android:name="com.tolgacobanoglu.stackoverflow_clone.view.FavoritesFragment"
+        android:label="fragment_favorites"
         tools:layout="@layout/fragment_favorites" />
     <fragment
         android:id="@+id/searchFragment"
         android:name="com.tolgacobanoglu.stackoverflow_clone.view.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/newPostFragment"
+        android:name="com.tolgacobanoglu.stackoverflow_clone.view.NewPostFragment"
+        android:label="fragment_new_post"
+        tools:layout="@layout/fragment_new_post" />
 </navigation>
