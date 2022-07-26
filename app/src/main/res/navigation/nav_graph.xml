@@ -77,7 +77,7 @@
     <fragment
         android:id="@+id/favouritesFragment"
         android:name="com.tolgacobanoglu.stackoverflow_clone.view.FavouritesFragment"
-        android:label="fragment_favorites"
+        android:label="fragment_favourites"
         tools:layout="@layout/fragment_favorites" />
     <fragment
         android:id="@+id/searchFragment"
