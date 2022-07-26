@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.tolgacobanoglu.stackoverflow_clone.R
 
-class FavoritesFragment : Fragment()
+class FavouritesFragment : Fragment()
 {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View?
