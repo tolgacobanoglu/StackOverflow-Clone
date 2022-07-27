@@ -26,8 +26,8 @@ class ThirdOnBoardingFragment : Fragment()
 
         val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPager)
 
-        binding.twThirdFragmentFinish.setOnClickListener {
-            findNavController().navigate(R.id.action_onBoardingViewPagerFragment_to_signUpFragment)
+        binding.btnFinish.setOnClickListener {
+            findNavController().navigate(R.id.action_onBoardingViewPagerFragment_to_signInFragment)
             OnBoardingSharedPreferences.done(requireActivity())
         }
 

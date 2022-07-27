@@ -21,7 +21,7 @@ class SecondOnBoardingFragment : Fragment()
 
         val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPager)
 
-        binding.twSecondFragmentNext.setOnClickListener{
+        binding.btnNext.setOnClickListener{
             viewPager?.currentItem = 2
         }
 

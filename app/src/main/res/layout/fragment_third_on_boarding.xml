@@ -16,17 +16,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tw_thirdFragment_finish"
+    <Button
+        android:id="@+id/btn_finish"
+        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Join the community"
-        android:textColor="@color/black"
-        android:textSize="30dp"
+        android:layout_marginBottom="28dp"
+        android:text="JOIN THE COMMUNITY"
         app:layout_constraintBottom_toBottomOf="@+id/iw_community"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,7 +22,7 @@ class FirstOnBoardingFragment : Fragment()
 
         val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPager)
 
-        binding.twFirstFragmentNext.setOnClickListener{
+        binding.btnNext.setOnClickListener{
             viewPager?.currentItem = 1
         }
 
