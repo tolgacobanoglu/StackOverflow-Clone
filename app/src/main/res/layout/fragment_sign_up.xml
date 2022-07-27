@@ -19,7 +19,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:helperTextTextColor="@color/primaryColor">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_name"
@@ -63,7 +64,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout_name">
+        app:layout_constraintTop_toBottomOf="@+id/layout_name"
+        app:helperTextTextColor="@color/primaryColor">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_email"
@@ -86,7 +88,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layout_email"
-        app:passwordToggleEnabled="true">
+        app:passwordToggleEnabled="true"
+        app:helperTextTextColor="@color/primaryColor">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_password"
