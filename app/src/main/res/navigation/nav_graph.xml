@@ -25,6 +25,9 @@
             app:destination="@id/signInFragment"
             app:popUpTo="@id/nav_graph"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_onBoardingViewPagerFragment"
+            app:destination="@id/onBoardingViewPagerFragment" />
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
@@ -89,4 +92,13 @@
         android:name="com.tolgacobanoglu.stackoverflow_clone.view.NewPostFragment"
         android:label="fragment_new_post"
         tools:layout="@layout/fragment_new_post" />
+    <fragment
+        android:id="@+id/onBoardingViewPagerFragment"
+        android:name="com.tolgacobanoglu.stackoverflow_clone.view.onboarding.OnBoardingViewPagerFragment"
+        android:label="fragment_on_boarding_view_pager"
+        tools:layout="@layout/fragment_on_boarding_view_pager" >
+        <action
+            android:id="@+id/action_onBoardingViewPagerFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
 </navigation>

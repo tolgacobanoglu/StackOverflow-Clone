@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.tolgacobanoglu.stackoverflow_clone.R
+import com.tolgacobanoglu.stackoverflow_clone.database.locale.sharedpreferences.OnBoardingSharedPreferences
 import com.tolgacobanoglu.stackoverflow_clone.databinding.FragmentSplashBinding
 import com.tolgacobanoglu.stackoverflow_clone.util.network.NetworkState
 
@@ -30,7 +31,15 @@ class SplashFragment : Fragment()
             {
                 if (NetworkState.checkConnection(requireContext()))
                 {
-                    findNavController().navigate(R.id.action_splashFragment_to_signInFragment)
+                    if (OnBoardingSharedPreferences.isDone(requireActivity()))
+                    {
+                        findNavController().navigate(R.id.action_splashFragment_to_signInFragment)
+                    }
+                    else
+                    {
+                        findNavController().navigate(R.id.action_splashFragment_to_onBoardingViewPagerFragment)
+                    }
+
                 }
                 else
                 {

@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity()
 
             when (destination.id)
             {   //TODO R.id.noConnectionFragment will be added
-                R.id.splashFragment, R.id.signInFragment, R.id.signUpFragment, R.id.forgotPasswordFragment ->
+                R.id.splashFragment, R.id.signInFragment, R.id.signUpFragment, R.id.forgotPasswordFragment,R.id.onBoardingViewPagerFragment ->
                 {
                     binding.bottomNav.visibility = View.GONE
                     binding.floatingActionButton.visibility = View.GONE
